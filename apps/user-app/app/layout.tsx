@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "VWallet",
-  description: "Simple wallet designed for balzing fast transactions ",
+
+  description: "Simple wallet app designed with speed as main focus",
+
+ 
+
 };
 
 export default function RootLayout({
@@ -19,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
+
         <body className={inter.className}>
           <div className="min-w-screen min-h-screen bg-[#ebe6e6]">
             <AppbarClient />
@@ -26,6 +31,11 @@ export default function RootLayout({
           </div>
         </body>
       </Providers>
+
+
+
+
+      
     </html>
   );
 }
