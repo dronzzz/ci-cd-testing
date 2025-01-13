@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "VWallet",
+
   description: "Simple wallet app designed with speed as main focus",
+
+ 
+
 };
 
 export default function RootLayout({
